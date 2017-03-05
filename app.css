@@ -1,0 +1,7 @@
+body {
+  font-family: "helvetica neue";
+}
+
+#board {
+  border: 1px dashed black;
+}

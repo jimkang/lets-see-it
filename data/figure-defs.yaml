@@ -1,0 +1,12 @@
+-
+  defname: armored-beef
+  layer: 3
+  groups:
+    -
+      groupname: feet
+      classes:
+        - feet
+      elements:
+        - >
+          <rect x="20" y="30" width="20" height="40" rx="10" ry="12" fill="#484239" />
+          <rect x="60" y="30" width="20" height="40" rx="10" ry="12" fill="#484239" />
