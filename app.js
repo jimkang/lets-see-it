@@ -6,7 +6,6 @@ var renderFigures = require('./representers/render-figures');
 var groupBy = require('lodash.groupby');
 
 ((function go() {
-  debugger;
   route();
 })());
 

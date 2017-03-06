@@ -5,3 +5,7 @@ body {
 #board {
   border: 1px dashed black;
 }
+
+.color-test {
+  fill: transparent;
+}
