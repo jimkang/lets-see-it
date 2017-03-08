@@ -31,7 +31,10 @@
     "d3-array": "^1.1.0",
     "handle-error-web": "^1.0.1",
     "list-em-all": "^1.2.0",
+    "lodash.clonedeep": "^4.5.0",
+    "lodash.flatten": "^4.4.0",
     "lodash.groupby": "^4.6.0",
+    "probable": "^2.1.1",
     "qs": "^6.3.0",
     "standard-bail": "^2.0.1"
   }

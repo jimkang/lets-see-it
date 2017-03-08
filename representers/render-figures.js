@@ -27,6 +27,8 @@ function renderFigureDefsOntoLayer(board, layer, figureDefs) {
     .classed('figure', true)
     .merge(figures);
 
+  figuresToUpdate.attr('transform', getFigureTransform);
+
   var figGroups = figuresToUpdate.selectAll('.figure-group')
     .data(getGroups, getGroupname);
 
@@ -55,6 +57,21 @@ function getFigureGroupClasses(figureDef) {
     classes = classes.concat(figureDef.classes);
   }
   return classes.join(' ');
+}
+
+function getFigureTransform(figure) {
+  var transform = '';
+
+  if (figure.position) {
+    transform += `translate(${figure.position[0]}, ${figure.position[1]})`;
+  }
+  if (figure.rotation) {
+    if (transform.length > 0) {
+      transform += ' ';
+    }
+    transform += `rotate(${figure.rotation}, 50, 50)`;
+  }
+  return transform;
 }
 
 module.exports = renderFigures;
