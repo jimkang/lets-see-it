@@ -49,3 +49,17 @@
       elements:
         - >
           <rect x="25" y="30" width="50" height="30" rx="25" ry="15" fill="green"></rect>
+    -
+      groupname: head
+      classes:
+        - head
+      elements:
+        - >
+          <ellipse cx="50" cy="42" rx="16" ry="18" fill="yellow"></ellipse>
+    -
+      groupname: hat
+      classes:
+        - hat
+      elements:
+        - >
+          <rect x="32" y="22" width="36" height="30" rx="10" ry="12" fill="purple"></rect>
