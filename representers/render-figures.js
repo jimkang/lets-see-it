@@ -1,11 +1,13 @@
 var d3 = require('d3-selection');
 var range = require('d3-array').range;
 var accessor = require('accessor');
+var GetPropertySafely = require('./get-property-safely');
 
 var getName = accessor('defname');
 var getElementsHTML = accessor('elements');
 var getGroups = accessor('groups');
 var getGroupname = accessor('groupname');
+var getColor = GetPropertySafely('color', 'hsl(0, 0%, 50%)');
 
 function renderFigures(figureDefsByLayer) {
   var board = d3.select('#board');
@@ -36,6 +38,7 @@ function renderFigureDefsOntoLayer(board, layer, figureDefs) {
   figGroups.enter().append('g')
     .merge(figGroups)
     .attr('class', getFigureGroupClasses)
+    .attr('fill', getColor)
     .html(getElementsHTML);
 }
 

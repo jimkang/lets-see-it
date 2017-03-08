@@ -8,16 +8,16 @@
         - feet
       elements:
         - >
-          <rect x="28" y="40" width="14" height="28" rx="8" ry="10" fill="hsl(0, 0%, 50%)"></rect>
-          <rect x="58" y="40" width="14" height="28" rx="8" ry="10" fill="hsl(0, 0%, 50%)"></rect>
+          <rect x="28" y="40" width="14" height="28" rx="8" ry="10"></rect>
+          <rect x="58" y="40" width="14" height="28" rx="8" ry="10"></rect>
     -
       groupname: hands
       classes:
         - hands
       elements:
         - >
-          <rect x="20" y="46" width="12" height="12" rx="4" ry="5" fill="hsl(0, 0%, 80%)"></rect>
-          <rect x="68" y="46" width="12" height="12" rx="4" ry="5" fill="hsl(0, 0%, 80%)"></rect>
+          <rect x="20" y="46" width="12" height="12" rx="4" ry="5"></rect>
+          <rect x="68" y="46" width="12" height="12" rx="4" ry="5"></rect>
     -
       groupname: shoulders
       classes:
@@ -31,8 +31,7 @@
                 A 2 2, 0, 0, 1, 28 52
                 L 18 52
                 A 80 25, 0, 0, 1, 20 36
-                Z"
-                fill="hsl(0, 0%, 60%)"></path>
+                Z"></path>
                 <path d="M 80 36
                   L 70 36
                   A 4 4, 0, 0, 0, 70 40
@@ -40,26 +39,25 @@
                   A 2 2, 0, 0, 0, 72 52
                   L 82 52
                   A 80 25, 0, 0, 0, 80 36
-                Z"
-                fill="hsl(0, 0%, 60%)"></path>
+                Z"></path>
     -
       groupname: trunk
       classes:
         - trunk
       elements:
         - >
-          <rect x="25" y="30" width="50" height="30" rx="25" ry="15" fill="hsl(0, 0%, 70%)"></rect>
+          <rect x="25" y="30" width="50" height="30" rx="25" ry="15"></rect>
     -
       groupname: head
       classes:
         - head
       elements:
         - >
-          <ellipse cx="50" cy="42" rx="16" ry="18" fill="hsl(0, 0%, 40%)"></ellipse>
+          <ellipse cx="50" cy="42" rx="16" ry="18"></ellipse>
     -
       groupname: hat
       classes:
         - hat
       elements:
         - >
-          <rect x="32" y="22" width="36" height="30" rx="10" ry="12" fill="hsl(0, 0%, 30%)"></rect>
+          <rect x="32" y="22" width="36" height="30" rx="10" ry="12"></rect>
