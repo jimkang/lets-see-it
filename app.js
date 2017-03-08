@@ -35,7 +35,7 @@ function createVariants(figureDef) {
   var variants = [createFigure({figureDef: figureDef})];
   for (var i = 0; i < 3; ++i) {
     let figure = createFigure({figureDef: figureDef, addVariance: true});
-    figure.position = [0, (i + 1) * 100];
+    figure.position = [0, (i + 1) * 50];
     variants.push(figure);
   }
   return variants;
